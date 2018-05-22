@@ -1,0 +1,16 @@
+body{
+	background-color: #2CC185;
+}
+
+h1{
+	font-family: 'Pacifico', serif;
+	color: #FFF;
+	font-size: 200px;
+	left: 0;
+    text-align: center;
+    margin: auto;
+    margin-top: -200px;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+}
