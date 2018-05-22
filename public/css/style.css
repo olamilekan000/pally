@@ -1,16 +1,52 @@
 body{
-	background-color: #2CC185;
+	background-color: black;
+}
+
+#pally{
+    background-color: #2CC185;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    animation: zeroWidth 1s 4.8s forwards;
+
+}
+
+#pally h1{
+    color: #fff;
+    font-size: 150px;
+    position: fixed;
+    margin-left: 30%;
+    margin-top: 50%;
+    animation: disappear 0.5s 4.8s forwards;
+}
+
+#menu{
+    height: 100%;
+    background-color: #2CC185;
+    width: 50%;
+    position: absolute;
+}
+
+#menu h1{
+    color: #fff;
+}
+
+#nav{
+    height: 150px;
+    background-color: /*#2CC185*/ yellow;
+    width: 100%;
+    /*padding: 50px;*/
 }
 
 h1{
-	font-family: 'Pacifico', serif;
-	color: #FFF;
-	font-size: 200px;
-	left: 0;
-    text-align: center;
-    margin: auto;
-    margin-top: -200px;
-    position: absolute;
-    top: 50%;
-    width: 100%;
+    font-family: 'Pacifico', serif;
+    color: black;
+}
+
+@keyframes zeroWidth{
+    100%{width: 0px}
+}
+
+@keyframes disappear{
+    100%{margin-left: -200px}
 }
