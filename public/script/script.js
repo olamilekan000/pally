@@ -1,0 +1,1 @@
+ setTimeout(() => { window.location = "/menu"; }, 5000)
