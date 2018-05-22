@@ -7,6 +7,7 @@ module.exports = (app) => {
 
 	app.get('/menu', (req, res) => {
 		res.render('menu');
+		res.end();
 	})
 
 }
