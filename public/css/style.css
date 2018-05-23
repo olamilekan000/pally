@@ -1,13 +1,17 @@
 body{
 	background-color: black;
 }
+*{
+    margin: 0px;
+    padding: 0px;
+}
 
 #pally{
     background-color: #2CC185;
     height: 100%;
     width: 100%;
     position: absolute;
-    animation: zeroWidth 1s 4.8s forwards;
+    animation: zeroWidth 1s 4.9s forwards;
 
 }
 
@@ -17,14 +21,20 @@ body{
     position: fixed;
     margin-left: 30%;
     margin-top: 50%;
-    animation: disappear 0.3s 4.8s forwards;
+    animation: disappear 0.3s 4.9s forwards;
 }
 
 #menu{
-    height: 100%;
     background-color: #2CC185;
-    width: 50%;
+    height: 100%;
+    width: 60%;
     position: absolute;
+    transition: 500ms all;
+    margin-left: -700px;
+}
+
+#menu.active{
+    margin-left: 0px;
 }
 
 #menu h1{
@@ -33,9 +43,36 @@ body{
 
 #nav{
     height: 150px;
-    background-color: /*#2CC185*/ yellow;
+    background-color: #2CC185;
     width: 100%;
-    /*padding: 50px;*/
+}
+
+#spanTog{
+    float: right;
+    padding: 10px;
+    margin-top: 2.5%;
+    margin-right: 7%;
+    border: 1px solid #fff;
+
+}
+
+#home{
+    float: left;
+    padding: 10px;
+    margin-top: 2.5%;
+    margin-left: 7%;
+    width: 50%;
+    height: 70px;
+}
+
+.fa-bars{
+    color: #fff;
+    font-size: 70px;  
+}
+
+.fa-home{
+    color: #fff;
+    font-size: 70px; 
 }
 
 h1{
@@ -48,5 +85,5 @@ h1{
 }
 
 @keyframes disappear{
-    100%{margin-left: -500px}
+    100%{margin-left: -700px}
 }
