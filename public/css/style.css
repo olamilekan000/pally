@@ -47,6 +47,13 @@ body{
     width: 100%;
 }
 
+#nav h1{
+    color: #fff;
+    text-align: center;
+    font-size: 70px;
+    padding-top: 2.5%;
+}
+
 #spanTog{
     float: right;
     padding: 10px;

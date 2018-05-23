@@ -10,4 +10,9 @@ module.exports = (app) => {
 		res.end();
 	})
 
+	app.get('/subjects', (req, res) => {
+		res.render('subjects');
+		res.end();
+	})
+
 }
