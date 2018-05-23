@@ -43,7 +43,7 @@ body{
 }
 
 #nav{
-    height: 150px;
+    height: 180px;
     background-color: #2CC185;
     width: 100%;
 }
@@ -52,13 +52,13 @@ body{
     color: #fff;
     text-align: center;
     font-size: 60px;
-    padding-top: 2.5%;
+    padding-top: 4%;
 }
 
 #spanTog{
     float: right;
     padding: 10px;
-    margin-top: 2.5%;
+    margin-top: 4%;
     margin-right: 7%;
     border: 1px solid #fff;
 
@@ -67,7 +67,7 @@ body{
 #home{
     float: left;
     padding: 10px;
-    margin-top: 2.5%;
+    margin-top: 4%;
     margin-left: 7%;
     width: 50%;
     height: 70px;
@@ -80,8 +80,12 @@ body{
 #index li{
 
     border-bottom: 1px solid #00BC8C;
-    font-family: 'Roboto', sans-serif;
-    /*font-size: 20px;*/
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+}
+
+.jumbotron{
+    margin-top: 15%;
 }
 
 .jumbotron ul {
