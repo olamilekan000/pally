@@ -34,4 +34,9 @@ module.exports = (app) => {
 		res.render('AAA/introAAA');
 		res.end();
 	})
+
+	app.get('/introSFM', (req, res) => {
+		res.render('SFM/introSFM');
+		res.end();
+	})
 }
