@@ -20,6 +20,11 @@ module.exports = (app) => {
 		res.end();
 	})
 
+	app.get('/introCR', (req, res) => {
+		res.render('CR/introCR');
+		res.end();
+	})
+
 
 	app.get('/introPSA', (req, res) => {
 		res.render('PSA/introPSA');

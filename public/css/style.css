@@ -1,6 +1,6 @@
 body{
 	background-color: black;
-    overflow: hidden;
+    /*overflow: hidden;*/
 }
 *{
     margin: 0px;
@@ -45,9 +45,12 @@ body{
 }
 
 #nav{
+    overflow: hidden;
     height: 180px;
     background-color: #2CC185;
     width: 100%;
+    top: 0;
+    position: fixed;
 }
 
 #nav h1{
@@ -84,6 +87,17 @@ body{
     border-bottom: 1px solid #00BC8C;
     font-family: "Montserrat", sans-serif;
     font-size: 30px;
+}
+
+#sel{
+    padding: 20px;
+    /*height: 100px;*/
+    /*border-radius: 10%;*/
+}
+
+#headerText{
+    margin-left: 300px;
+    margin-top: -20%;
 }
 
 .jumbotron{
@@ -127,11 +141,7 @@ body{
 .row{
     padding-left: 20%;
 }
-#sel{
-    padding: 20px;
-    /*height: 100px;*/
-    /*border-radius: 10%;*/
-}
+
 
 h1 {
     font-family: 'Pacifico', serif   !important;
