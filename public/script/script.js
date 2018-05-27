@@ -3,6 +3,6 @@ function toggleSidebar(){
 }
 
 //takes user to menu
-change = () => {
-	window.location = "/subjects";
-}
+// change = () => {
+// 	window.location = "/select";
+// }

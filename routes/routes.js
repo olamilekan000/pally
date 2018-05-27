@@ -15,6 +15,12 @@ module.exports = (app) => {
 		res.end();
 	})
 
+	app.get('/select', (req, res) => {
+		res.render('select');
+		res.end();
+	})
+
+
 	app.get('/introPSA', (req, res) => {
 		res.render('PSA/introPSA');
 	})
