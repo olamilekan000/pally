@@ -2,6 +2,13 @@ body{
 	background-color: black;
     /*overflow: hidden;*/
 }
+
+h1 {
+    font-family: 'Pacifico', serif   !important;
+    color: black;
+
+}
+
 *{
     margin: 0px;
     padding: 0px;
@@ -142,12 +149,6 @@ body{
     padding-left: 20%;
 }
 
-
-h1 {
-    font-family: 'Pacifico', serif   !important;
-    color: black;
-
-}
 
 @keyframes zeroWidth{
     100%{width: 0px}
