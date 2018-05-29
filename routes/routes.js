@@ -25,7 +25,6 @@ module.exports = (app) => {
 		res.end();
 	})
 
-
 	app.get('/introPSA', (req, res) => {
 		res.render('PSA/introPSA');
 	})
@@ -39,4 +38,9 @@ module.exports = (app) => {
 		res.render('SFM/introSFM');
 		res.end();
 	})
+
+	app.get('/introAdvtax', (req, res) => {
+		res.render('ADVTAX/introAdvtax');
+		res.end();
+	})	
 }
