@@ -29,11 +29,6 @@ module.exports = (app) => {
 		res.render('PSA/introPSA');
 	})
 
-	app.get('/introAAA', (req, res) => {
-		res.render('AAA/introAAA');
-		res.end();
-	})
-
 	app.get('/introSFM', (req, res) => {
 		res.render('SFM/introSFM');
 		res.end();
