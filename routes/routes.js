@@ -20,8 +20,8 @@ module.exports = (app) => {
 		res.end();
 	})
 
-	app.get('/login', (req, res) => {
-		res.render('login');
+	app.get('/home', (req, res) => {
+		res.render('home');
 		res.end();
 	})
 

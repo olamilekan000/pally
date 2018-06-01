@@ -1,6 +1,8 @@
 const express = require('express');
 const path = require('path');
+const authStrategy = require('./config/passport-setup');
 const routes = require('./routes/routes');
+const authiRoutes = require('./routes/authRoutes/auth-routes');
 const routesAAA = require('./routes/routesAAA');
 const routesCR = require('./routes/routesCR');
 const routesSFM = require('./routes/routesSFM');
@@ -15,6 +17,9 @@ app.set('view engine', 'ejs');
 
 //serve public files
 app.use('/public', express.static(path.join(__dirname, 'public')));
+
+//routes for auth
+app.use('/auth', authiRoutes);
 
 //routes fopr each courses
 routes(app);
