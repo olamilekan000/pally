@@ -110,6 +110,17 @@ h1 {
     margin-top: -20%;
 }
 
+#login ul li{
+    display: inline !important;
+    padding-left: 15px;
+    width: 100%;
+}
+    
+#login ul li a{
+    display: inline !important;
+    width: 10%;
+}
+
 .jumbotron{
     margin-top: 30%;
 }
@@ -158,9 +169,15 @@ h1 {
     font-size: 100px;  
 }
 
+.fa-facebook-square{
+    color: #4267B2;
+    font-size: 100px;  
+}
+
 .row{
     padding-left: 20%;
 }
+
 
 
 @keyframes zeroWidth{
