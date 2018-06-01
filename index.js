@@ -5,6 +5,7 @@ const routesAAA = require('./routes/routesAAA');
 const routesCR = require('./routes/routesCR');
 const routesSFM = require('./routes/routesSFM');
 const routeADVTAX = require('./routes/routesADVTAX');
+const routePSA = require('./routes/routesPSA');
 
 const app = express();
 
@@ -21,6 +22,7 @@ routesAAA(app);
 routesCR(app);
 routesSFM(app);
 routeADVTAX(app);
+routePSA(app);
 
 const PORT = 5000;
 

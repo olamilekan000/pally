@@ -20,10 +20,11 @@ module.exports = (app) => {
 		res.end();
 	})
 
+	app.get('/login', (req, res) => {
+		res.render('login');
+		res.end();
+	})
 
 
-	// app.get('/introPSA', (req, res) => {
-	// 	res.render('PSA/introPSA');
-	// })
 
 }
